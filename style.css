@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "outfit_regular";
+  src: url(./fonts/Outfit-Regular.ttf);
+}
+
+@font-face {
+  font-family: "outfit_bold";
+  src: url(./fonts/Outfit-Bold.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: hsl(212, 45%, 89%);
+  max-width: 1480px;
+  padding: 0 20px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__wrapper {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 15px;
+  width: 250px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__img {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  height: 250px;
+  width: 250px;
+}
+
+.card__content {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.card__title {
+  font-family: outfit_bold, sans-serif;
+  font-size: 20px;
+  margin-bottom: 17px;
+}
+
+.card__text {
+  font-family: outfit_regular, sans-serif;
+  font-size: 15px;
+}
+
+.attribution {
+  margin-bottom: 20px;
+}
